@@ -1,0 +1,16 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 25px 10px;
+}
+
+.screen-header__column span {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.screen-header__column i {
+  font-size: 22px;
+  margin-left: 20px;
+}

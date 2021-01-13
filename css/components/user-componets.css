@@ -1,0 +1,39 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__profile {
+  width: 65px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: #a1b6e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.user-component__profile i {
+  font-size: 35px;
+}
+
+.user-component__column span {
+  font-size: var(--profile);
+}
+
+.user-component__column:last-child {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  opacity: 0.4;
+}
+
+.user-component__column:last-child span {
+  margin-right: 6px;
+}

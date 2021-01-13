@@ -1,0 +1,72 @@
+.friends-screen {
+  padding: 25px;
+}
+
+.margintop-line {
+  border-top: var(--line);
+  margin-top: 20px;
+}
+
+.friends-screen__column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-margin {
+  margin: 15px 0px 20px;
+}
+
+.friends-screen-birthday__header,
+.friends-screen-recommended-friend__header,
+.friends-screen-chanel__header {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+}
+
+.friends-screen__profile-lg {
+  width: 55px;
+  height: 55px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.birthday-profile__color {
+  background-color: #e07379;
+}
+
+.recommended-friend-profile__color {
+  background-color: #8979c0;
+}
+
+.chanel-profile__color {
+  background-color: var(--yellow);
+}
+
+.friends-profile__color {
+  background-color: #8eccdd;
+}
+
+.friends-screen__profile-lg {
+  color: white;
+  font-size: 25px;
+}
+
+.friends-screen-birthday__profile span {
+  font-size: var(--profile);
+}
+
+.fa-comment {
+  color: black;
+}
+.fa-user {
+  color: #cbd6f1;
+}
+
+.friends-screen__friends {
+  margin-bottom: 20px;
+}

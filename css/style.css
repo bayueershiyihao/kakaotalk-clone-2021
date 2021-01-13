@@ -1,8 +1,11 @@
 /* Components */
 @import "components/status-bar.css";
+@import "components/screens-header.css";
+@import "components/user-componets.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 @import "variables.css";
 @import "reset.css";

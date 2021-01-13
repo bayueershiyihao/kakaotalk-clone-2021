@@ -1,3 +1,5 @@
 :root {
   --yellow: #ffe500;
+  --profile: 19px;
+  --line: 1px solid rgba(0, 0, 0, 0.1);
 }
