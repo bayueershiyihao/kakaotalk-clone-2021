@@ -7,7 +7,6 @@
   height: 200px;
   width: 100%;
   padding: 20px 0px;
-  position: relative;
 }
 
 .corona-hedaer__column {
@@ -52,7 +51,7 @@ i {
 
 .comment-icon {
   position: absolute;
-  top: 22px;
+  top: 110px;
   right: 18px;
   width: 35px;
   height: 35px;
@@ -69,17 +68,22 @@ i {
 }
 
 .corona-domestic-status {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.corona-domestic-status__content {
+.corona-domestic-status__container {
   background-color: white;
+  position: absolute;
+  top: -630px;
   width: 90%;
   height: 110px;
+  padding: 0px 0px 45px 0px;
   border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,4 +139,127 @@ i {
 
 .up-down__column span {
   font-size: 18px;
+}
+
+.area-domestic-status {
+  position: absolute;
+  bottom: 474px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.area-domestic-status__container {
+  width: 100%;
+  height: 50px;
+  background-color: #f5f6f8;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.area-domestic-status__column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.area-domestic-status__column span,
+.area-domestic-status__column i {
+  margin: 0px 3px;
+  font-size: 13px;
+}
+
+.area-domestic-status__column:first-child span {
+  font-weight: 800;
+}
+
+.area-domestic-status__column:not(:first-child) span:first-child {
+  opacity: 0.5;
+}
+
+.area-domestic-status__column:not(:first-child) span:last-child {
+  margin-left: 0;
+  font-size: 10px;
+}
+
+.corona-domestic-status {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+}
+
+.covid-map {
+  margin-top: 150px;
+  padding: 0px 35px;
+  border-bottom: 10px solid #eff0f4;
+}
+
+.covid-map__map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.covid-map__header span:first-child {
+  font-size: 24px;
+  font-weight: 800;
+  margin-right: 80px;
+}
+
+.covid-map__header span:last-child {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.covid-map__header i {
+  font-size: 15px;
+  opacity: 0.2;
+}
+
+.covid-map__map img {
+  width: 60%;
+  height: 450px;
+  margin-top: 45px;
+}
+
+.covid-footer {
+  margin-bottom: 57px;
+}
+
+.covid-footer-bar {
+  padding: 20px 80px;
+}
+
+.covid-footer-bar__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.covid-footer-bar__list a {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.covid-footer-bar__list a:last-child {
+  border: none;
+}
+
+.covid-footer__source {
+  background-color: #eff0f4;
+  padding: 45px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.4;
+}
+
+.covid-footer__source-column:last-child {
+  margin-top: 7px;
+  font-size: 12px;
 }

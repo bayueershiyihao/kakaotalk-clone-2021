@@ -1,15 +1,39 @@
 .news-header-bar {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 25px;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .news-list {
+  padding: 15px;
   display: flex;
   overflow-x: scroll;
+  width: 88%;
+}
+
+#exchange-button {
+  border: none;
+  background-color: white;
+  width: 10%;
+  font-size: 28px;
+  opacity: 0.3;
 }
 
 .news-btn {
   font-size: 30px;
+  font-weight: 600;
   margin-right: 20px;
+}
+
+.news-btn__animation {
+  font-weight: 800;
+  border-bottom: 3px solid black;
+  padding: 11px 0px;
+}
+
+.news-btn :not(.news-btn__animation) {
+  opacity: 0.3;
 }

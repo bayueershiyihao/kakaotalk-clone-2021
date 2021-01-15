@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>KaKao Talk Chats Page</title>
+    <title>KaKao Talk News Page</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,7 +24,9 @@
 
     <header class="news-header-bar">
       <ul class="news-list">
-        <li class="news-btn"><a href="#">코로나19</a></li>
+        <li class="news-btn">
+          <a class="news-btn__animation" href="#">코로나19</a>
+        </li>
         <li class="news-btn"><a href="#">연말정산</a></li>
         <li class="news-btn"><a href="#">뉴스</a></li>
         <li class="news-btn"><a href="#">카카오TV</a></li>
@@ -35,6 +37,7 @@
         <li class="news-btn"><a href="#">공연</a></li>
         <li class="news-btn"><a href="#">뮤직</a></li>
       </ul>
+      <button id="exchange-button"><i class="fas fa-exchange-alt"></i></button>
     </header>
 
     <main class="news-screen">
@@ -57,7 +60,7 @@
       </div>
 
       <div class="corona-domestic-status">
-        <div class="corona-domestic-status__content">
+        <div class="corona-domestic-status__container">
           <div class="corona-domestic-status__column">
             <span>확진환자</span>
             <span class="people-font__color1">70,728</span>
@@ -91,9 +94,63 @@
             </div>
           </div>
         </div>
-        <div class="dwqdqwd">dwdqw</div>
+
+        <div class="area-domestic-status">
+          <div class="area-domestic-status__container">
+            <div class="area-domestic-status__column">
+              <span>서울</span>
+            </div>
+            <div class="area-domestic-status__column">
+              <span>확진</span>
+              <span>22,056</span>
+              <i class="fas fa-caret-up"></i>
+              <span>134</span>
+            </div>
+            <div class="area-domestic-status__column">
+              <span>완치</span>
+              <span>16,304</span>
+              <i class="fas fa-caret-up"></i>
+              <span>217</span>
+            </div>
+            <div class="area-domestic-status__column">
+              <span>사망</span>
+              <span>252</span>
+              <i class="fas fa-caret-up"></i>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+    <div class="covid-map">
+      <div class="covid-map__header">
+        <span>지역별 확진자 현황</span>
+        <i class="fas fa-exclamation-circle"></i>
+        <span>01.14 00:00 기준</span>
+      </div>
+      <div class="covid-map__map">
+        <img src="screenshots/covid-19-map.jpeg" />
+      </div>
+    </div>
+
+    <footer class="covid-footer">
+      <div class="covid-footer-bar">
+        <div class="covid-footer-bar__list">
+          <a href="#"><span>예방수칙</span></a>
+          <a href="#"><span>유의사항</span></a>
+          <a href="#"><span>자주묻는질문</span></a>
+          <a href="#"><span>선별진료소</span></a>
+        </div>
+      </div>
+      <div class="covid-footer__source">
+        <div class="covid-footer__source-column">
+          <span>데이터 출처 : 중앙재난안전대책본부</span>
+        </div>
+        <div class="covid-footer__source-column">
+          <i class="fab fa-stumbleupon-circle"></i> <span>KaKao Corp.</span>
+        </div>
+      </div>
+    </footer>
 
     <div class="nav-bar">
       <ul class="nav-list">
