@@ -2,10 +2,14 @@
 @import "components/status-bar.css";
 @import "components/screens-header.css";
 @import "components/user-componets.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/news.css";
+@import "screens/corona.css";
 
 @import "variables.css";
 @import "reset.css";

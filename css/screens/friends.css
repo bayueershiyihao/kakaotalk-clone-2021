@@ -1,5 +1,6 @@
 .friends-screen {
   padding: 25px;
+  margin-bottom: 55px;
 }
 
 .margintop-line {
@@ -10,15 +11,15 @@
 .friends-screen__column {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .header-margin {
   margin: 15px 0px 20px;
 }
 
-.friends-screen-birthday__header,
-.friends-screen-recommended-friend__header,
-.friends-screen-chanel__header {
+.friends-screen__sm-header {
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.4);
@@ -26,9 +27,19 @@
 }
 
 .friends-screen__profile-lg {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.friends-screen__profile-xl {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,6 +78,10 @@
   color: #cbd6f1;
 }
 
-.friends-screen__friends {
-  margin-bottom: 20px;
+.friends-screen__friends:last-child {
+  margin-bottom: 0px;
+}
+
+.friends-screen__columnm-margin__xl {
+  margin-bottom: 30px;
 }

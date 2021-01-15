@@ -1,0 +1,15 @@
+.news-header-bar {
+  width: 100%;
+  margin-top: 50px;
+  white-space: nowrap;
+}
+
+.news-list {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.news-btn {
+  font-size: 30px;
+  margin-right: 20px;
+}

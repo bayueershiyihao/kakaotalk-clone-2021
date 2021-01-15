@@ -1,6 +1,7 @@
 .user-component {
   display: flex;
   justify-content: space-between;
+  margin-top: 70px;
 }
 
 .user-component__column {
@@ -27,13 +28,33 @@
   font-size: var(--profile);
 }
 
-.user-component__column:last-child {
-  display: flex;
-  align-items: center;
-  font-size: 16px;
+.user-component__column:last-child span {
+  margin-right: 6px;
+  font-size: 14px;
   opacity: 0.4;
 }
 
-.user-component__column:last-child span {
-  margin-right: 6px;
+.user-component__column:last-child i {
+  opacity: 0.4;
+}
+
+.chats-screen__margintop .user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component-profile__title {
+  font-weight: 500;
+}
+
+.user-component-profile__text {
+  opacity: 0.4;
+  font-size: 16px;
+  margin-top: 10px;
 }
