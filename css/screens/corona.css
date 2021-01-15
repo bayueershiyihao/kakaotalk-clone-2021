@@ -78,7 +78,7 @@ i {
 .corona-domestic-status__container {
   background-color: white;
   position: absolute;
-  top: -630px;
+  top: -36px;
   width: 90%;
   height: 110px;
   padding: 0px 0px 45px 0px;
@@ -143,7 +143,7 @@ i {
 
 .area-domestic-status {
   position: absolute;
-  bottom: 474px;
+  bottom: -120px;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -184,12 +184,6 @@ i {
   font-size: 10px;
 }
 
-.corona-domestic-status {
-  position: absolute;
-  bottom: -120px;
-  width: 100%;
-}
-
 .covid-map {
   margin-top: 150px;
   padding: 0px 35px;
@@ -200,6 +194,16 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.covid-map__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.covid-map__header div {
+  margin-left: 55px;
+  margin-top: 5px;
 }
 
 .covid-map__header span:first-child {
@@ -219,7 +223,7 @@ i {
 }
 
 .covid-map__map img {
-  width: 60%;
+  width: 70%;
   height: 450px;
   margin-top: 45px;
 }
@@ -229,7 +233,7 @@ i {
 }
 
 .covid-footer-bar {
-  padding: 20px 80px;
+  padding: 20px 20px;
 }
 
 .covid-footer-bar__list {
@@ -242,6 +246,7 @@ i {
   display: flex;
   justify-content: center;
   width: 25%;
+  padding: 0px 10px;
   border-right: 2px solid rgba(0, 0, 0, 0.2);
 }
 
