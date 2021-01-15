@@ -11,8 +11,12 @@
 .friends-screen__column {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   margin-bottom: 20px;
+}
+
+.friends-screen__column {
+  display: flex;
+  align-items: center;
 }
 
 .header-margin {
@@ -84,4 +88,6 @@
 
 .friends-screen__columnm-margin__xl {
   margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
 }
